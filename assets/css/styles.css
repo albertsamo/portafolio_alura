@@ -1,0 +1,59 @@
+*{
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+    background-color: var(--colorPrimario);
+    color: #464646;
+ }
+
+:root{
+    --colorPrimario: #e5e5e5;
+    --colorSecundario: #464646;
+    --colorTerciario:#eaf2fd;
+    --colorCuatro: #2a7ae4;
+    --colorcinco: #ededed;    
+}
+
+body{
+    list-style: none;
+    font-family: raleway;
+    width: 100%;
+}
+
+a{
+    color: var(--colorSecundario);
+    text-decoration: none;    
+}
+
+a:visited{
+    color:var(--colorSecundario)
+}
+
+a:hover{
+    color: red;
+    
+}
+
+input{
+    border: none;
+    height: 5.6rem;
+    border-radius: 4px;
+    gap: 4px;
+    box-shadow: 0px 1px #c8c8c8 ;
+}
+
+input:focus{
+    
+    border: 6px solid red;
+}
+
+::placeholder{
+    color: #a2a2a2; 
+    margin: 2rem;  
+
+}
+
+
+

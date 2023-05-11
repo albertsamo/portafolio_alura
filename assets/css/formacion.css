@@ -1,0 +1,51 @@
+.formacion{  
+    background-color: var(--colorTerciario) ;
+    font-family: raleway;
+    color: var(--colorSecundario);
+    padding: 1rem;
+    margin: 0 auto;
+}
+
+.formacion h2{
+    font-size: 2.2rem;
+    text-align: center;
+    font-family: Raleway;
+    font-weight: 700;
+    padding-bottom: 3.2rem;
+}
+.formacion__tarjetas{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.formacion__tarjeta--contenedor{
+    margin: 0 auto;
+}
+
+.formacion__tarjeta{
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    width: 296px;
+    height: 118px;
+    justify-content: center;
+}
+
+.formacion__logos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.formacion__texto h3{
+    font-size: 1.6rem;
+    font-weight: 700;
+    margin-top: 1rem;
+}
+.formacion__texto p{
+    font-size: 1.4rem;
+    font-weight: 500;
+    margin-bottom: 2rem;
+}

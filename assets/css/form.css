@@ -1,0 +1,40 @@
+.form{
+    background-color: #EAF2FD;
+}
+.form__container{       
+
+    padding: 3.2rem;
+}
+
+.form__container h2{
+    font-size: 2.2rem;    
+    font-weight: 700;   
+    margin-bottom: 1rem;
+
+}
+
+.form__container p {
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+
+.form__container form {    
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;  
+    gap:1rem;  
+    
+}
+
+#btn{
+    width: 50%;
+    background-color: var(--colorCuatro);
+    color: white;
+    border: none
+}
+
+
+
+
+
+

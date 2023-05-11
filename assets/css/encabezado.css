@@ -1,0 +1,55 @@
+.encabezado{    
+    background: var(--colorPrimario);
+    font-size: 1.6rem;   
+    margin: 2rem;
+}
+
+.encabezado__menu{
+    display: none;
+}
+
+.encabezado__contacto{
+    display: flex;
+    justify-content: space-between;    
+}
+
+.grueso{
+    font-weight: 700;
+    color: #464646;
+    
+}
+
+
+
+@media only screen and (min-width: 768px){
+    
+    
+    /*.encabezado__contenedor{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        font-family: raleway;
+        
+    }
+    
+    .encabezado p{
+        color: var(--colorSecundario);
+        font-family: raleway;
+        font-weight: 700;
+        
+    }
+    
+    
+    .encabezado ul{    
+        display: flex;
+        list-style: none;
+        padding-left: 1rem;
+        padding-right: 1rem;  
+        
+    }
+    
+    .encabezado ul li{
+        margin: 1rem;
+    }*/
+
+}

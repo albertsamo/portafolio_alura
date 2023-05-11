@@ -1,0 +1,88 @@
+.experiencia{
+    background-color: #E5e5e5 ;
+    color: var(--colorSecundario);
+    padding: 3.2rem;        
+}
+.experiencia h2{
+    font-size: 2.2rem;
+    text-align: center;
+    font-weight: 700;   
+    margin-bottom: 1.6rem; 
+}
+
+.experiencia__contenedor{
+    width: 100%; 
+    display: flex;
+    flex-direction: column;  
+    
+}
+
+.experiencia__contenedor img{
+    width: 29.6rem;    
+}
+
+.experiencia__pie-imagen h3{
+    padding-top: 1rem;
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+
+.experiencia__pie-imagen p{
+    font-size: 1.4rem;
+    font-weight: 500;
+    
+}
+
+.experiencia__boton{
+    display: flex;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+}
+
+
+.experiencia__boton--repositorio{
+    display: flex;
+    color: var(--colorCuatro);
+    width: 96px;
+    height: 40px;
+    border: 2px solid var(--colorCuatro);
+    font-size: 1.6rem;
+    justify-content: center;
+    align-items: center;
+    margin-right: 1.5rem;
+}
+
+.experiencia__boton--demo{
+    display: flex;
+    color: white;
+    background-color: var(--colorCuatro);
+    width: 96px;
+    height: 40px;
+    font-size: 1.6rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.experiencia__boton--repositorio:hover{
+    display: flex;
+    color: white;
+    background-color: var(--colorCuatro);
+    width: 96px;
+    height: 40px;
+    font-size: 1.6rem;
+    justify-content: center;
+    align-items: center;
+    margin-right: 1.5rem;
+}
+
+.experiencia__boton--demo:hover{
+   display: flex;
+   background-color: var(--colorPrimario);
+    color: var(--colorCuatro);
+    width: 96px;
+    height: 40px;
+    border: 2px solid var(--colorCuatro);
+    font-size: 1.6rem;
+    justify-content: center;
+    align-items: center;
+}

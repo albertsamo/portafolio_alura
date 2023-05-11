@@ -1,0 +1,18 @@
+.sobreMi{
+    background-color: #EAF2FD;
+    padding: 2rem;
+    font-family: raleway;
+    color: var(--colorSecundario);
+    padding: 3.2rem;
+}
+
+.sobreMi h2{
+    font-size: 2.2rem;
+    font-weight: 700;
+}
+
+.sobreMi p{
+    font-size: 1.4rem;
+    font-weight: 400;
+    margin: 1rem;
+}
