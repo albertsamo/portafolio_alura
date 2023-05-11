@@ -1,3 +1,6 @@
+@media screen and (min-width: 360px) {
+    
+}
 .presentacion{
     display: flex;
     flex-direction: column-reverse;
@@ -5,8 +8,8 @@
     color: var(--colorSecundario);
     font-family: raleway;
     padding-bottom: 2rem;
+    
 }
-
 
 .presentacion__texto{
     width: 100%;
@@ -23,9 +26,9 @@
 }
 
 .presentacion__texto{
-    padding: 1rem;
-    
+    padding: 1rem;    
 }
+
 .presentacion__texto h1{
     font-size: 2.2rem;
     font-weight: 700;
@@ -48,52 +51,48 @@
     
 }
 
-/*@media only screen and (min-width: 768px){
+@media only screen and (min-width:768px) {
+    .presentacion{        
+        flex-direction: row;
+        padding: 2rem 2rem;
+        
+    }
 
-    .presentacion{
-        display: flex;
-        background-color: var(--colorPrimario);
-        color: var(--colorSecundario);
-        font-family: raleway;
-        padding-bottom: 2rem;
-    }
-    
-    
-    .presentacion__texto{
-        width: 70%;
-        font-weight: 700;
-        font-size: 1.1rem;
-    }
-    
     .presentacion__img--perfil img{
-        height: 146px;
-        width: auto;
-        border-radius: 100%;
-        
+        height: 146px; 
     }
-    
-    .presentacion__texto{
-        margin: 3rem;
-        
+}
+
+@media screen and (min-width:1200px){
+    .presentacion{        
+        flex-direction: row;
+        padding: 2rem 10rem;  
+        align-items: center;      
     }
+
+
+    .presentacion__img--perfil img{
+        height: 368px; 
+
+    }
+
     .presentacion__texto h1{
-        font-size: 2.2rem;
-        font-weight: 700;
+        font-size: 5.2rem;    
     }
-    
+
     .presentacion__texto p{
-        font-size: 1.6rem;
-        font-weight: 400;
-        margin-top: 1rem;
+        font-size: 2.2rem;    
+        margin-top: 2rem;
     }
+
     .presentacion__texto a{    
         font-size: 1.6rem;
-        font-weight: 500;
-        margin-top: 1rem;
+        margin-top: 2rem;
     }
-    
+
     .presentacion__link{
         display: flex;
-        justify-content:space-between;
-    }
-}*/
+        justify-content:flex-start;
+        gap: 30px;    
+    }   
+}
