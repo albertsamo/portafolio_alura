@@ -15,41 +15,23 @@
 
 .grueso{
     font-weight: 700;
-    color: #464646;
+    color: var(--colorSecuandrio);
     
 }
 
-
-
-@media only screen and (min-width: 768px){
-    
-    
-    /*.encabezado__contenedor{
+@media only screen and (min-width: 1024px){
+    .encabezado__menu{
         display: flex;
         justify-content: space-around;
-        align-items: center;
-        font-family: raleway;
-        
-    }
-    
-    .encabezado p{
-        color: var(--colorSecundario);
-        font-family: raleway;
-        font-weight: 700;
-        
-    }
-    
-    
-    .encabezado ul{    
-        display: flex;
-        list-style: none;
-        padding-left: 1rem;
-        padding-right: 1rem;  
-        
-    }
-    
-    .encabezado ul li{
-        margin: 1rem;
-    }*/
 
+    }
+
+    .encabezado__menu ul{
+        display:flex;
+        gap:20px
+    }
+
+    .encabezado__contacto{
+        display: none;
+    }
 }
