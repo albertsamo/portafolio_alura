@@ -17,3 +17,11 @@
     margin: 1rem;
 }
 
+@media screen and (min-width: 1080px){
+    .sobreMi p{
+        width: 60%;
+    }
+    .sobreMi h2{
+    font-size: 3.2rem;    
+}
+}
