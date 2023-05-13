@@ -71,30 +71,28 @@
     margin-bottom: .5rem;
 }
 
-@media screen and(min-width: 360px){
+@media screen and (min-width: 768px){
     .skills h2{
         font-size: 3.2rem;        
         padding-top: 4rem;
-        margin-bottom: 4rem;
-        
+        margin-bottom: 4rem;        
+    }  
+
+    .skills__tarjetas{ 
+        width: 22.4rem;
+        height: 11.8rem;        
+    }
+}
+@media only screen and (min-width: 1024px){
+    .skills h2{
+        font-size: 3.2rem;        
+        padding-top: 4rem;
+        margin-bottom: 4rem;        
     }  
 
     .skills__tarjetas{        
         width: 16.6rem;
         height: 16.6rem;
-    }
-}
-@media only screen and (min-width: 768px){
-    .skills h2{
-        font-size: 3.2rem;        
-        padding-top: 4rem;
-        margin-bottom: 4rem;
-        
-    }  
-
-    .skills__tarjetas{        
-        width: 22.4rem;
-        height: 11.8rem;
     }
     
 }
