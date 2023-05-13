@@ -71,79 +71,31 @@
     margin-bottom: .5rem;
 }
 
-/*@media only screen and (min-width: 768px){
-.skills{
-    font-family: raleway;
-    color: var(--colorSecundario);
-    padding: 3rem;
-}
+@media screen and(min-width: 360px){
+    .skills h2{
+        font-size: 3.2rem;        
+        padding-top: 4rem;
+        margin-bottom: 4rem;
+        
+    }  
 
-.skills h2{
-    font-size: 2.2rem;
-    font-weight: 700;
-    text-align: center;
-    padding-top: 3.2rem;
-    margin-bottom: 3.2rem;
+    .skills__tarjetas{        
+        width: 16.6rem;
+        height: 16.6rem;
+    }
+}
+@media only screen and (min-width: 768px){
+    .skills h2{
+        font-size: 3.2rem;        
+        padding-top: 4rem;
+        margin-bottom: 4rem;
+        
+    }  
+
+    .skills__tarjetas{        
+        width: 22.4rem;
+        height: 11.8rem;
+    }
     
 }
-
-.skills__lenguajes{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.8rem;
-    justify-content: center;
-}
-
-.skills__tarjetas{
-    display: flex;
-    flex-direction: column;
-    background-color: #ffffff;
-    width: 22.4rem;
-    height: 11.8rem;
-    padding: 1.6rem;   
-    font-size: 1.6rem;
-    font-weight: 700;
-    align-items: flex-start;
-    justify-content: flex-end;
-    margin-top: 2rem;
-    
-}
-
-
-
-.skills__tarjetas--icon1{
-    width: 2.4rem;
-    height: 3.7rem;
-    margin-bottom: .5rem;
-}
-
-.skills__tarjetas--icon2{
-    width: 2.8rem;
-    height: 3.7rem;
-    margin-bottom: .5rem;
-}
-
-.skills__tarjetas--icon3{
-    width: 4rem;
-    height: 3.7rem;
-    margin-bottom: .5rem;
-}
-
-.skills__tarjetas--icon4{
-    width: 4rem;
-    height: 3.7rem;
-    margin-bottom: .5rem;
-}
-
-.skills__tarjetas--icon5{
-    width: 3.2rem;
-    height: 3.7rem;
-    margin-bottom: .5rem;
-}
-
-.skills__tarjetas--icon6{
-    width: 2.26rem;
-    height: 2.78rem;
-    margin-bottom: .5rem;
-}*/
 
