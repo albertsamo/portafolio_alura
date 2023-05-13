@@ -70,3 +70,35 @@
     height: 2.4rem;
     margin-bottom: .5rem;
 }
+
+@media screen and (min-width: 768px){
+    .hobbies__lenguajes{
+        padding-bottom: 5rem;
+    }
+    .hobbies h2{
+        font-size: 3.2rem;        
+        padding-top: 4rem;
+        margin-bottom: 4rem;        
+    }  
+
+    .hobbies__tarjetas{ 
+        width: 22.4rem;
+        height: 11.8rem;        
+    }
+}
+@media only screen and (min-width: 1024px){
+    .hobbies__lenguajes{
+        padding-bottom: 5rem;
+    }
+    .hobbies h2{
+        font-size: 3.2rem;        
+        padding-top: 4rem;
+        margin-bottom: 4rem;        
+    }  
+
+    .hobbies__tarjetas{        
+        width: 16.6rem;
+        height: 16.6rem;
+    }
+    
+}
