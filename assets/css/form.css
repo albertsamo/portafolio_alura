@@ -26,13 +26,35 @@
     
 }
 
-#btn{
+.form img {
+    display: none;
+}
+form button{
     width: 50%;
+    height: 40px;
     background-color: var(--colorCuatro);
     color: white;
     border: none
 }
 
+@media screen and (min-width: 1080px){
+    .form{
+        display: flex;
+        padding: 4rem;
+        margin: 0 auto;
+        align-items: center;
+        justify-content: center;
+    }
+    .form img {
+        display: block;
+        width: 46.4rem;
+    }
+
+    form button{  
+        width: 144px;      
+        height: 51px;        
+    }
+}
 
 
 
